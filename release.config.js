@@ -1,5 +1,3 @@
-const branches = require("semantic-release/lib/branches");
-
 module.exports = {
   plugins: [
     "@semantic-release/commit-analyzer",
