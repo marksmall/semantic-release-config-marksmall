@@ -1,6 +1,6 @@
 {
   "name": "@mark-small/semantic-release-config-marksmall",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "re-usable config for semantic-release",
   "main": "release.config.js",
   "scripts": {
