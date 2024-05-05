@@ -1,0 +1,50 @@
+{
+  "name": "@mark-small/semantic-release-config-marksmall",
+  "version": "1.0.0",
+  "description": "re-usable config for semantic-release",
+  "main": "release.config.js",
+  "scripts": {
+    "clean": "rm -rf node_modules",
+    "release": "yarn clean && yarn && semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marksmall/semantic-release-config-marksmall.git"
+  },
+  "keywords": [
+    "semantic-release",
+    "config"
+  ],
+  "author": "Mark Small <marksmall@gmx.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marksmall/semantic-release-config-marksmall/issues"
+  },
+  "homepage": "https://github.com/marksmall/semantic-release-config-marksmall#readme",
+  "peerDependencies": {
+    "semantic-release": "^19.0.5"
+  },
+  "dependencies": {
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.38.0",
+    "@typescript-eslint/parser": "^5.38.0",
+    "eslint": "^8.23.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard-with-typescript": "^23.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.8",
+    "prettier": "^2.7.1",
+    "semantic-release": "^19.0.5",
+    "typescript": "^4.8.3"
+  },
+  "release": {
+    "extends": "./release.config.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
